@@ -5,11 +5,17 @@ import Footer from "./Footer";
 import styled from "styled-components";
 
 const Container = styled.div`
-  margin: 3rem auto;
-  max-width: 600px;
+  margin: 1rem auto;
+  max-width: 800px;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   min-height: 90vh;
+  background-color: floralwhite;
+  font-family: "Lora", serif;
+  a {
+    color: slateblue;
+  }
 `;
 
 const Content = styled.div`

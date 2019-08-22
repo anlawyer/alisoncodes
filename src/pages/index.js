@@ -6,14 +6,52 @@ class App extends Component {
     return (
       <Layout>
         <h1>Hi, I'm Alison and this is my website.</h1>
-        I'm a frontend developer living in Oakland, CA. I work at a FinTech
-        startup in San Francisco, and I spend my free time volunteering for Code
-        for America at the OpenOakland brigade where I lead the brigade's
-        communication efforts. I also do indoor rock climbing, city biking, and
-        like to travel to other cities and outdoors locations when I can. I
-        studies Cognitive Science at UC Berkeley, and did two software
-        engineering bootcamps after graduating in 2017. I like to learn and read
-        about humans, psychology, design, and civic technology.
+        <p>
+          I'm a frontend developer living in Oakland, CA.{" "}
+          <span role="img" aria-label="sunny emoji">
+            ☀️
+          </span>
+        </p>
+        <p>
+          I work at a{" "}
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://bentoforbusiness.com"
+          >
+            FinTech startup
+          </a>{" "}
+          in San Francisco, and I spend my free time volunteering for Code for
+          America at the{" "}
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://openoakland.org"
+          >
+            OpenOakland brigade
+          </a>{" "}
+          where I lead the brigade's communication efforts, including a monthly
+          newsletter and social media presence, and I redesigned and launched a
+          new open-source{" "}
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/openoakland/openoakland.org"
+          >
+            website
+          </a>{" "}
+          for the organization this year.
+        </p>
+        <p>
+          I also enjoy rock climbing, city biking, traveling to other cities to
+          ride their transit, and going outdoors when I can.
+        </p>
+        <p>
+          I studied Cognitive Science at UC Berkeley, and did two software
+          engineering bootcamps after graduating from Cal in 2017. When I'm not
+          reading a Vonnegut book, I like to learn about humans, psychology,
+          design, and civic technology.
+        </p>
       </Layout>
     );
   }
