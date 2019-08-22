@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "alisoncodes",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Alison's personal website",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -14,15 +14,17 @@
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.6",
     "gatsby": "^2.13.75",
+    "gatsby-plugin-react-helmet": "^3.1.4",
     "gatsby-plugin-styled-components": "^3.1.2",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "react-helmet": "^5.2.1",
     "styled-components": "^4.3.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/anlawyer/alisoncodes"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
