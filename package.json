@@ -12,15 +12,15 @@
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "dependencies": {
-    "babel-plugin-styled-components": "^1.10.6",
+    "babel-plugin-styled-components": "^1.11.1",
     "gatsby": "^2.24.37",
-    "gatsby-plugin-react-helmet": "^3.1.13",
-    "gatsby-plugin-styled-components": "^3.1.11",
+    "gatsby-plugin-react-helmet": "^3.3.10",
+    "gatsby-plugin-styled-components": "^3.3.10",
     "gatsby-plugin-web-font-loader": "^1.0.4",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-helmet": "^5.2.1",
-    "styled-components": "^4.4.0"
+    "styled-components": "^4.4.1"
   },
   "repository": {
     "type": "git",
