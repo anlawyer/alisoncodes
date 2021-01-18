@@ -15,6 +15,7 @@ const Head = () => {
       }
     `
   );
+
   return (
     <Helmet>
       <title>{data.site.siteMetadata.title}</title>

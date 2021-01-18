@@ -3,32 +3,37 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Head from "./Head";
 
-import styled from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
+
+const GlobalStyle = createGlobalStyle`
+  body {
+    margin: 0;
+    background-color: floralwhite;
+    font-family: "Lato", sans-serif;
+    a {
+      color: slateblue;
+    }
+  }
+`;
 
 const Container = styled.div`
-  margin: 1rem auto;
-  max-width: 800px;
   padding: 1rem;
   display: flex;
   flex-direction: column;
   min-height: 90vh;
-  background-color: floralwhite;
-  font-family: "Lora", serif;
-  a {
-    color: slateblue;
-  }
 `;
 
 const Content = styled.div`
   flex: 1;
 `;
 
-const Layout = ({ children }) => {
+const MainLayout = ({ children }) => {
   return (
     <>
+      <GlobalStyle />
       <Head />
+      <Header />
       <Container>
-        <Header />
         <Content>{children}</Content>
         <Footer />
       </Container>
@@ -36,4 +41,4 @@ const Layout = ({ children }) => {
   );
 };
 
-export default Layout;
+export default MainLayout;
