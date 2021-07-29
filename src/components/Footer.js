@@ -18,14 +18,6 @@ class Footer extends Component {
         >
           See my code on GitHub
         </a>
-        <br />
-        <a
-          rel="noopener noreferrer"
-          target="_blank"
-          href="https://twitter.com/alison_lawyer"
-        >
-          Sometimes I retweet things on Twitter
-        </a>
       </FooterContainer>
     );
   }
