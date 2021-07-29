@@ -1,36 +1,46 @@
 import React, { Component } from "react";
-import Layout from "../components/Layout";
+
+import Head from "../components/Head";
+import MainContent from "../components/MainContent";
+
+import styled from "styled-components";
+import { createGlobalStyle } from "styled-components";
+
+const GlobalStyle = createGlobalStyle`
+  body {
+    color: midnightblue;
+    background-color: mintcream;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    margin: 1rem;
+    a {
+      color: orangered;
+    }
+    a:hover {
+      background-color: peachpuff;
+    }
+  }
+`;
+
+const MainContainer = styled.div`
+  margin: 1rem auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh;
+`;
 
 class App extends Component {
   render() {
     return (
-      <Layout>
-        <h1>Hi, I'm Alison.</h1>
-        <p>
-          I'm a frontend developer living in Washington, DC.{" "}
-          <span role="img" aria-label="sunny emoji">
-            ☀️
-          </span>
-        </p>
-        <p>
-          I work at a{" "}
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://bentoforbusiness.com"
-          >
-            FinTech startup
-          </a>{" "}
-          based in San Francisco/Chicago.
-        </p>
-
-        <p>
-          I studied Cognitive Science at UC Berkeley, and did two software
-          engineering bootcamps after graduating in 2017. When I'm not
-          reading a sci-fi book, I like to learn about humans, psychology,
-          design, and civic technology.
-        </p>
-      </Layout>
+      <>
+        <GlobalStyle />
+        <Head />
+        <MainContainer>
+          <MainContent />
+        </MainContainer>
+      </>
     );
   }
 }
