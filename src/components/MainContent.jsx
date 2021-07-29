@@ -56,10 +56,10 @@ const MainContent = () => (
 
     <SectionTitle>Education</SectionTitle>
     <p>
-      After I graduated with a BA in{" "}
-      <Link href="https://cogsci.berkeley.edu">Cognitive Science</Link> from{" "}
-      <Link href="https://www.berkeley.edu">UC Berkeley</Link> in 2017, I
-      completed two software engineering bootcamps before being hired by Bento
+      After I graduated from{" "}
+      <Link href="https://www.berkeley.edu">UC Berkeley</Link> with a BA in{" "}
+      <Link href="https://cogsci.berkeley.edu">Cognitive Science</Link> in 2017,
+      I completed two software engineering bootcamps before being hired by Bento
       in 2018.
     </p>
 
